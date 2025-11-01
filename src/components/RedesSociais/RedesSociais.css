@@ -1,0 +1,51 @@
+:root {
+  --cor-primaria: #4b7bec;      /* cor principal do botão */
+  --cor-secundaria: #6c63ff;    /* cor secundária */
+  --cor-texto: #fff;            /* cor do texto */
+}
+
+.links_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.links_container a {
+  text-decoration: none;
+  color: var(--cor-texto);
+  background-color: var(--cor-secundaria);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 14px 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(108, 99, 255, 0.25);
+  transition: all 0.3s ease;
+}
+
+.links_container a:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 25px rgba(108, 99, 255, 0.35);
+  background-color: var(--cor-primaria);
+}
+
+.links_container a:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 600px) {
+  .links_container a {
+    font-size: 0.95rem;
+    padding: 12px 16px;
+    max-width: 90%;
+  }
+}
