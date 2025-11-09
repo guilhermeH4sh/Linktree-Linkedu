@@ -35,7 +35,7 @@
 .perfil_descricao {
   font-size: 1rem;
   color: #555;
-  max-width: 90%;
+  max-width: 90%; 
   line-height: 1.6;
   word-wrap: break-word; 
 }
@@ -67,6 +67,16 @@
 
   .perfil_descricao {
     font-size: 0.9rem;
-    max-width: 100
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .perfil_nome {
+    font-size: 1.1rem;
+  }
+
+  .perfil_descricao {
+    font-size: 0.8rem;
   }
 }

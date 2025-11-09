@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   background: linear-gradient(145deg, #e0e7ff, #f3f4f6);
-  padding: 2rem 1rem; 
+  padding: 2rem 1rem;
   box-sizing: border-box;
 }
 
@@ -17,7 +17,7 @@
   padding: 2rem;
   text-align: center;
   animation: fadeIn 0.8s ease-in-out;
-  margin-top: 2rem; 
+  margin-top: 2rem;
   margin-bottom: 2rem; 
 }
 
