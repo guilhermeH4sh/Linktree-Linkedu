@@ -3,11 +3,7 @@
   display: flex;
   justify-content: center;
   background: linear-gradient(145deg, #e0e7ff, #f3f4f6);
-<<<<<<< HEAD
   padding: 2rem 1rem;
-=======
-  padding: 2rem 1rem; 
->>>>>>> 1c15b34 (Atualização de estilo de fonte, responsividade)
   box-sizing: border-box;
 }
 
@@ -21,11 +17,7 @@
   padding: 2rem;
   text-align: center;
   animation: fadeIn 0.8s ease-in-out;
-<<<<<<< HEAD
   margin-top: 2rem;
-=======
-  margin-top: 2rem; 
->>>>>>> 1c15b34 (Atualização de estilo de fonte, responsividade)
   margin-bottom: 2rem; 
 }
 
