@@ -1,6 +1,3 @@
-Claro, aqui está a tradução do arquivo README.md para o português:
-
-Iniciando com o Create React App
 Este projeto foi inicializado com o Create React App.
 
 Scripts Disponíveis
